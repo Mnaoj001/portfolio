@@ -100,7 +100,7 @@ export const portfolioData: PortfolioData = {
     languages: ["English", "Hindi"],
     status: "Available for Internships & Engineering Roles",
     learningMotto: "Always eager to learn new things, explore emerging technologies, and solve real-world problems.",
-    avatarUrl: "/manoj.jpg"
+    avatarUrl: `${import.meta.env.BASE_URL}manoj.jpg`
   },
   stats: [
     { label: "B.Tech Focus", value: "CSE-DS", detail: "Data Science & Computer Engineering" },
